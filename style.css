@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+}
+#header{
+  background-color: #303030;
+  color: #fff;
+  padding: 130px 0px 80px 140px;
+}
+#header h1{
+  margin-bottom: 20px;
+  font-family: inter;
+  font-size: 60px;
+  font-weight: 600;
+}
+#header p{
+  font-family: inter;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+#sobreAEmpresa{
+  display: grid;
+  grid-auto-flow: column;
+  padding: 70px 0px 60px 140px;
+  background-color: #f9f9f9;
+}
+
+.sobreAEmpresaNumeros{
+  font-size: 40px;
+  font-family: inter;
+  font-weight: 600;
+}
+
+.sobreAEmpresaParagrafo{
+  font-size: 20px;
+  font-family: inter;
+  font-weight: 400;
+}
+
+#SecaoTextoImagem{
+  padding: 0px 0px 0px 130px;
+  display: grid;
+  grid-auto-flow: column;
+  margin: 80px 0px 80px 0px;
+}
+
+#secaoTexto h1{
+  margin-top: 170px;
+  margin: 150px 0px 20px 0px;
+  font-size: 40px;
+  font-family: inter;
+}
+
+#secaoTexto p{
+  font-size: 24px;
+  font-family: raleway;
+  font-weight: 300;
+  color: #888;
+}
+
+#secaoForm{
+  background-color: #303030;
+  color: #fff;
+  text-align: center;
+  font-family: inter;
+  padding: 80px 0px 50px 0px;
+  border: 0;
+}
+
+#secaoForm h1{
+  font-size: 32px;
+}
+
+input{
+  width: 450px;
+  height: 58px;
+  font-size: 21px;
+  margin-top: 45px;
+  border: 0px;
+  border-radius: 10px;
+  font-family: raleway;
+  padding-left: 20px;
+}
+
+input::placeholder{
+  border: 0;
+  opacity: 0.3;
+  font-size: 21px;
+  padding-left: 0px;
+}
+
+button{
+  margin-top: 50px;
+  font-family: raleway;
+  font-size: 25px;
+  width: 256px;
+  height: 53px;
+  border: 0px;
+  border-radius: 10px;
+  background-color: #c07212;
+  color: #fff;
+  cursor: pointer;
+}
+
+button:hover{
+  color: #eaece5;
+  background-color: #b47322;
+  transform: translateY(-7px);
+  transition: ease-in-out 500ms;
+  box-shadow: 1px 0px 5px #2266b4;
+  box-shadow: 0px 15px 20px #462e10;
+}
